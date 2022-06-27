@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  height: 100vh;
+  flex-flow: column;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  outline: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  border: 5px solid #5b4b8a;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.content {
+  display: flex;
+  align-items: flex-end;
+  border: 3px solid #ccc;
+  width: 40vh;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: inherit;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
